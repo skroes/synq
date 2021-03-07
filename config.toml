@@ -1,0 +1,207 @@
+######################## default configuration ####################
+baseURL = "https://synquad.co.uk/"
+languageCode = "en-us"
+title = "Synquad"
+theme = "orbitor-hugo"
+summaryLength = "10"
+paginate = 4
+
+
+[outputs]
+  home = ["HTML", "AMP", "RSS", "JSON"]
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/css/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify/css/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/magnific-popup/dist/magnific-popup.css"
+  [[params.plugins.css]]
+  URL = "plugins/modal-video/modal-video.css"
+  [[params.plugins.css]]
+  URL = "plugins/animate-css/animate.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick-carousel/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick-carousel/slick/slick-theme.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/js/popper.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/js/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/magnific-popup/dist/jquery.magnific-popup.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick-carousel/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/counterup/jquery.waypoints.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/counterup/jquery.counterup.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/modal-video/modal-video.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/fuse.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/mark.js"
+  [[params.plugins.js]]
+  URL = "plugins/search/search.js"
+  [[params.plugins.js]]
+  URL = "plugins/google-map/map.js"
+  [[params.plugins.js]]
+  URL = "https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"
+
+  
+############################## navigation ###############################
+[menu]
+    
+#[[menu.main]]
+#name = "Contact"
+#URL = "contact"
+#weight = 5
+
+#[[menu.footer1]]
+#name = "Contact"
+#URL = "contact"
+#weight = 5
+
+[[menu.footer2]]
+name = "Privacy Policy"
+URL = "https://docs.google.com/document/d/1ipHJU4RCjc3bh9K7lvsXJKTmEz4y-lvxfwuDJ7G4u9g/edit?usp=sharing"
+weight = 5
+
+#################### default parameters ################################
+[params]
+logo = "images/logo.png"
+logoAlt = "images/logo-w.png"
+home = ""
+# Meta data
+description = "Synquad Limited"
+author = "Synquad Limited"
+# Cookie
+cookie = true
+expireDay = 2
+# google map
+gmapAPI = "https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"
+mapLatitude = "51.5223477"
+mapLongitude = "-0.1622023"
+mapMarker = "images/marker.png"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# copyright
+copyright = "&copy; Copyright Reserved to <span class=\"text-color\">Synquad Limited</span>"
+
+  # Preloader
+  [params.preloader]
+  enable = false
+
+  # Navigation button
+  [params.navBtn]
+  enable = true
+  label = "contact"
+  link = "contact"
+
+############################# Footer ##############################
+
+  # footer about
+  [params.footer.about]
+  title = "Synquad Limited"
+  content1 = ""
+  content2 = ""
+
+  # contact info
+  [params.contact]
+  mobile = "Set Up A Zoom Call"
+  email = "contact@synquad.co.uk"
+  location = ""
+
+################################# Social icon #######################
+#[[params.social]]
+#icon = "ti-facebook"
+#link = "#"
+
+#[[params.social]]
+#icon = "ti-twitter-alt"
+#link = "#"
+
+#[[params.social]]
+#icon = "ti-github"
+#link = "#"
+
+############################# post share links ######################
+#[[params.postShare]]
+#icon = "ti-facebook"
+#link = "#"
+
+#[[params.postShare]]
+#icon = "ti-twitter-alt"
+#link = "#"
+
+#[[params.postShare]]
+#icon = "ti-linkedin"
+#link = "#"
+
+
+# Bringing it all together.
+# Great service matters.
+
+# Let us guide you home.
+# Welcome Home.
+
+# Synquad is fully experienced and offers real value in a changing world.
+
+
+# Professionally managed homes.
+
+# Move to What Moves You.
+# A smart move leads to a smart home.
+# Live Who You Are.
+# Real value in a changing world.
+
+# A smart move leads to a smart home.
+#   content : "The shortest distance between paradise and the place you call home."
+
+# http://rent10mile.com/
+
+#About Us
+#We are a team of rental experts that are dedicated to providing customers a quality experience from start to finish. Our properties are fully vetted for authenticity, accuracy, and regularly inspected for quality.
+
+#We provide all our customers with complimentary concierge services – so you can relax and let someone do the planning for you!  We hope to have you as one of our customers and look forward to providing you a quality home!
+
+#syn-
+#a prefix occurring in loanwords from Greek, having the same function as co- (synthesis; synoptic); used, with the meaning “with,” “together,” in the formation of compound words (synsepalous) or “synthetic” in such compounds (syngas).
+
+#Professional property management
+#Wide selection of homes in desirable neighborhoods
+#Recently updated homes
+#ProCare Service and 24/7 Emergency Maintenance
+#Smart Home technology features
+#Pet-friendly environment
+#Easy online payment system
+
+#Professionally Managed Properties
+#All of our homes are under the care of professional property managers and house keeping services. Rest assured that it will be cleaned and ready for your arrival.
+
+#HOME AMENITIES
+#All homes on our platform will meet our amenity standards.
+
+#CONCIERGE SERVICES
+#We’ve partnered with various businesses to offer shopping services, private chef and curated experiences.
+
+#GREAT LOCATIONS
+#We strive to provide the best quality homes in the most desirable areas of the cities you search.
+
+
+# WHY?
+# http://biztravelready.com/why-us/
+
+# WORK with us
+# http://biztravelready.com/work-with-us/
+
+

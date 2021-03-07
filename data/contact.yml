@@ -1,0 +1,54 @@
+################################### contact form #########################
+contact:
+  subtitle : "Send a message"
+  title : "Contact Form"
+  # form submit email place on "mail.php" file
+  selectOption:
+    - option : "Software Design"
+    - option : "Development cycle"
+    - option : "Software Development"
+    - option : "Maintenance"
+    - option : "Process Query"
+    - option : "Cost and Duration"
+    - option : "Modal Delivery"
+
+############################# map ##################################
+map:
+  enable : false
+  # map data comes from "config.toml" file
+
+############################ branch ###############################
+branch:
+  enable : false
+  branchOffice:
+    # branch office loop
+    - title : "UK"
+      info:
+        # branch information loop
+        - label : "International House, 64 Nile Street, London, N1 7SR United Kingdom"
+          icon : "ti-location-pin" # here we use themify icon pack : https://themify.me/themify-icons
+          
+        # branch information loop
+        - label : "Email: contact@synquad.co.uk"
+          icon : "ti-email" # here we use themify icon pack : https://themify.me/themify-icons
+          
+        # branch information loop
+        - label : "Phone: 02081871279"
+          icon : "ti-mobile" # here we use themify icon pack : https://themify.me/themify-icons
+
+          
+    # branch office loop
+    - title : "Europe"
+      info:
+        # branch information loop
+        - label : "North Main Street,Brooklyn Australia"
+          icon : "ti-location-pin" # here we use themify icon pack : https://themify.me/themify-icons
+          
+        # branch information loop
+        - label : "Email: contact@mail.com"
+          icon : "ti-email" # here we use themify icon pack : https://themify.me/themify-icons
+          
+        # branch information loop
+        - label : "Phone: 02081871279"
+          icon : "ti-mobile" # here we use themify icon pack : https://themify.me/themify-icons
+          
